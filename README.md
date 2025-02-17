@@ -10,6 +10,7 @@ Reuniendo datos de distintas fuentes busco encontrar información que me permita
 ## Fuentes:
 
 + **Agencia Estatal de Meteorología (AEMET)**
++ **Servei Meteorològic de Catalunya (Meteocat)**
 + **Open Data Ajuntament de Barcelona**
 + **Beezee Degree Days Weather Data for Energy Saving**
 
