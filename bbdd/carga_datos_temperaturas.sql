@@ -63,3 +63,25 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (fecha, id_ciudad, tmin, tmax, tmed, prec, hrmed, vmed)
 ;
+
+-- Carga de los datos para la tabla consumo del año 2025 Meses de enero a junio
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/temperaturas/temp_bcn_2025.csv'
+INTO TABLE temperaturas
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(fecha, id_ciudad, tmin, tmax, tmed, prec, hrmed, vmed)
+;
+
+-- Carga de los datos para la tabla consumo del año 2025 del mes de julio
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/temperaturas/temp_bcn_2025_07.csv'
+INTO TABLE temperaturas
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(fecha, id_ciudad, tmin, tmax, tmed, prec, hrmed, vmed)
+;
